@@ -1,0 +1,40 @@
+.project-card-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	margin: 10px;
+	border: 3px solid #00c1ff;
+	border-radius: 10px;
+	box-shadow: 3px 3px 2px #888888;
+}
+
+.project-photo {
+	margin: 10px;
+}
+
+.photo-card-text {
+	text-align: right;
+}
+
+.photo-card-text h1 {
+	color: #ff0084;
+	font-size: 24px;
+}
+
+.photo-card-text h2 {
+	font-size: 16px;
+}
+
+img {
+	max-width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+	.project-card-container {
+		text-align: center;
+	}
+
+	.photo-card-text {
+	}
+}

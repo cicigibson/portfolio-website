@@ -1,0 +1,19 @@
+.logo-container {
+	background-color: #ff0084;
+	border-radius: 50%;
+	overflow: hidden;
+	height: 225px;
+	width: 225px;
+	margin: auto;
+	background-image: url('../../images/memoji.png');
+	background-position: bottom;
+	background-size: 240px;
+	margin-top: 20px;
+	border: 3px solid #fff000;
+}
+
+@media only screen and (max-width: 768px) {
+	.logo-container {
+		background-color: #ff0084;
+	}
+}
